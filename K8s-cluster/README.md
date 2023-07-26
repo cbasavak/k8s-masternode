@@ -7,7 +7,7 @@
 3. For the worker nodes, a minimum of 1vCPU and 2 GB RAM is recommended.
 
 Note: Make sure the Node IP range and pod IP range don’t overlap.
-``
+```
 
 ### K8s Cluster Setup Using Kubeadm
 ```
