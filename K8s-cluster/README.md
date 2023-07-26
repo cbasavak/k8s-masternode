@@ -208,7 +208,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
-  replicas: 2 
+  replicas: 4
   template:
     metadata:
       labels:
@@ -246,6 +246,8 @@ kubectl get svc
 ```
 ### Access the worker node ip in the browser with port exposed.
 
+kubectl apply -f deployment.yml
+kubectl apply -f service.yml
 
 
 
