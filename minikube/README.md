@@ -151,7 +151,9 @@ Change Minikube VM CPU: minikube config set cpus CPU_COUNT
 Start Minikube with a specific profile: minikube start -p PROFILE_NAME
 ```
 # Kubectl Commands:
+
 ```
+get nodes:kubectl get nodes
 Get pods: kubectl get pods
 Get services: kubectl get services
 Get deployments: kubectl get deployments
